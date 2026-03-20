@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+
+# Output (generated, not committed)
+output/*.html
+output/*.png
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

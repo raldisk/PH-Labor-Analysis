@@ -1,0 +1,33 @@
+# ph-labor-analysis — notebook dependencies
+# Install: pip install -r requirements.txt
+
+# Notebook runtime
+jupyter>=1.0.0
+nbconvert>=7.16.0
+ipykernel>=6.29.0
+
+# Database connection
+sqlalchemy>=2.0.0,<3
+psycopg2-binary>=2.9.9,<3
+
+# Data wrangling
+pandas>=2.2.0,<3
+numpy>=1.26.0,<2
+
+# Statistical analysis + decomposition
+scipy>=1.13.0,<2
+statsmodels>=0.14.0,<1
+
+# Visualization
+plotly>=5.22.0,<6
+matplotlib>=3.9.0,<4
+seaborn>=0.13.0,<1
+kaleido>=0.2.1        # static image export for plotly → HTML
+
+# Utilities
+python-dotenv>=1.0.0,<2
+rich>=13.7.0,<14
+
+# Interactive widgets
+ipywidgets>=8.1.0,<9
+widgetsnbextension>=4.0.0,<5   # enables widgets in classic notebook
