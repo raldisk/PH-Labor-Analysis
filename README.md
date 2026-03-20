@@ -1,4 +1,4 @@
-# ph-labor-analysis
+# ph-ofw-analysis
 
 **Philippine Economic Indicators — Exploratory Data Analysis**
 
@@ -6,16 +6,11 @@ A Jupyter notebook and exportable HTML report covering eight analytical sections
 GDP trend decomposition, CPI seasonality, OFW remittance profiling, correlation
 analysis, STL time-series decomposition, and a 3-year SARIMAX remittance forecast.
 
-Part of a three-project data portfolio:
-- [`ph-price-tracker`](https://github.com/raldisk/ph-price-tracker) — Lazada PH scraping pipeline (DuckDB + PostgreSQL + dbt)
-- [`ph-economic-tracker`](https://github.com/raldisk/ph-economic-tracker) — PSA + World Bank + BSP pipeline (PostgreSQL + dbt + Streamlit)
-- **`ph-labor-analysis`** — EDA notebook consuming the tracker marts ← you are here
-
 ---
 
 ## Interactive widgets (Section 9)
 
-The notebook includes four live  controls — no cell re-run needed after moving a slider:
+The notebook includes four live controls — no cell re-run needed after moving a slider:
 
 | Widget | Controls | What updates |
 |---|---|---|
@@ -24,7 +19,7 @@ The notebook includes four live  controls — no cell re-run needed after moving
 | Correlation heatmap | Variable multi-select + Pearson/Spearman toggle + year range | Live correlation matrix |
 | Forecast explorer | Forecast horizon slider + CI level + train cutoff | SARIMAX chart + forecast table |
 
-> **Requires:**  and JupyterLab or classic Jupyter.
+> **Requires:** JupyterLab or classic Jupyter.
 > VS Code notebook view shows widgets as static — open in browser-based Jupyter for full interactivity.
 
 ---
@@ -32,8 +27,8 @@ The notebook includes four live  controls — no cell re-run needed after moving
 ## Quickstart
 
 ```bash
-git clone https://github.com/raldisk/ph-labor-analysis.git
-cd ph-labor-analysis
+git clone https://github.com/raldisk/ph-ofw-analysis.git
+cd ph-ofw-analysis
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -87,7 +82,7 @@ synthetic data matching the real series — regenerated via `generate_sample_dat
 ## Project structure
 
 ```
-ph-labor-analysis/
+ph-ofw-analysis/
 ├── notebooks/
 │   └── ph_economic_eda.ipynb     ← main deliverable
 ├── data/
