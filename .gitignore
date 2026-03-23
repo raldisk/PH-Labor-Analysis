@@ -19,3 +19,4 @@ output/*.png
 .vscode/
 .idea/
 .DS_Store
+!output/summary_dashboard.html
