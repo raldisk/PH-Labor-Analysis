@@ -6,6 +6,9 @@ A Jupyter notebook and exportable HTML report covering eight analytical sections
 GDP trend decomposition, CPI seasonality, OFW remittance profiling, correlation
 analysis, STL time-series decomposition, and a 3-year SARIMAX remittance forecast.
 
+> **Companion data pipeline → [ph-economic-tracker](https://github.com/raldisk/ph-economic-tracker)**
+> Ingestion, PostgreSQL warehouse, and dbt transforms that feed this notebook. Run `docker compose up` in that repo and the notebook will connect to live mart data automatically instead of the bundled CSV fallback.
+
 ---
 
 ## Preview
