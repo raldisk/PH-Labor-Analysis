@@ -8,6 +8,14 @@ analysis, STL time-series decomposition, and a 3-year SARIMAX remittance forecas
 
 ---
 
+## Preview
+
+![Dashboard preview](docs/preview.png)
+
+> Full interactive version → `output/summary_dashboard.html` (open in any browser, no Jupyter needed)
+
+---
+
 ## Interactive widgets (Section 9)
 
 The notebook includes four live controls — no cell re-run needed after moving a slider:
